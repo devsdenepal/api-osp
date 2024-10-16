@@ -23,7 +23,7 @@ This project provides a simple RESTful API built with Node.js and Express that s
 
    ```bash
    git clone https://github.com/devsdenepal/api-osp.git
-   cd YOUR_REPOSITORY_NAME
+   cd devsdenepal/api-osp
    ```
 
 2. Install the required dependencies:
