@@ -41,17 +41,17 @@ This project provides a simple RESTful API built with Node.js and Express that s
 To start the server, run:
 
 ```bash
-node app.js
+node index.js
 ```
 
-The API will be available at `http://localhost:8080/repos`.
+The API will be available at `https://apiosp.vercel.app/repos`.
 
 ### Example Request
 
 You can use a tool like Postman or curl to test the API:
 
 ```bash
-curl http://localhost:8080/repos
+curl https://apiosp.vercel.app/repos
 ```
 
 ### Response Format
