@@ -22,7 +22,7 @@ This project provides a simple RESTful API built with Node.js and Express that s
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
+   git clone https://github.com/devsdenepal/api-osp.git
    cd YOUR_REPOSITORY_NAME
    ```
 
