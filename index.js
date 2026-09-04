@@ -3,9 +3,17 @@ const axios = require('axios');
 const customRepos = require('./repos');
 
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 const GITHUB_API_URL = 'https://api.github.com';
+
+app.get('/', (req, res) => {
+    res.json({
+        name: 'api-osp',
+        endpoints: ['/repos'],
+        usage: '/repos returns configured GitHub repositories sorted by stars.',
+    });
+});
 
 app.get('/repos', async (req, res) => {
     try {
