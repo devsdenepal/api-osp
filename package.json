@@ -1,13 +1,13 @@
 {
-  "name": "server",
+  "name": "api-osp",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "REST API serving open-source GitHub repos with star/fork data",
+  "main": "index.js",
   "scripts": {
-   "start": "node app.js"
+   "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Dev. Gautam Kumar",
+  "license": "MIT",
   "dependencies": {
    "express": "^4.18.2",
    "axios": "^1.7.7"
